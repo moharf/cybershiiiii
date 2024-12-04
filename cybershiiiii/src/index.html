@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logitech Zone Vibe 100</title>
+    <style>
+        /* General Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: #f8f9fa;
+            color: #212529;
+            line-height: 1.6;
+        }
+
+        /* Header */
+        header {
+            background: #004aad;
+            color: white;
+            text-align: center;
+            padding: 20px 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            font-size: 2.5rem;
+        }
+        header p {
+            font-size: 1.2rem;
+            margin-top: 5px;
+        }
+
+        /* Container */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Product Section */
+        .product-section {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            align-items: center;
+            margin: 20px 0;
+        }
+
+        .product-image img {
+            width: 100%;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        .product-details {
+            flex: 2;
+            background: #ffffff;
+            border-radius: 15px;
+            padding: 20px 25px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .product-details h2 {
+            color: #004aad;
+            margin-bottom: 15px;
+        }
+
+        .product-details ul {
+            list-style: none;
+            padding-left: 20px;
+        }
+
+        .product-details ul li {
+            margin-bottom: 10px;
+            position: relative;
+            padding-left: 25px;
+        }
+
+        .product-details ul li::before {
+            content: "✔";
+            position: absolute;
+            left: 0;
+            color: #004aad;
+            font-size: 1.2rem;
+            line-height: 1.2;
+        }
+
+        /* CTA Section */
+        .cta {
+            text-align: center;
+            margin: 40px 0;
+        }
+
+        .cta button {
+            background: linear-gradient(45deg, #004aad, #0064c8);
+            color: white;
+            padding: 15px 40px;
+            font-size: 1.2rem;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            transition: background 0.3s ease;
+        }
+
+        .cta button:hover {
+            background: linear-gradient(45deg, #003780, #004aad);
+        }
+
+        /* Additional Info Section */
+        .info-section {
+            background: #ffffff;
+            padding: 20px 25px;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+            margin: 20px 0;
+        }
+
+        .info-section h3 {
+            color: #004aad;
+            margin-bottom: 15px;
+        }
+
+        /* Footer */
+        footer {
+            background: #004aad;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        footer p {
+            font-size: 14px;
+        }
+
+        /* Media Queries */
+        @media (max-width: 768px) {
+            .product-section {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .product-details, .product-image {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Logitech Zone Vibe 100</h1>
+        <p>Redefining Wireless Comfort and Style</p>
+    </header>
+    <div class="container">
+        <div class="product-section">
+            <div class="product-image">
+                <img src="logitech-zone-vibe-100.jpg" alt="Logitech Zone Vibe 100">
+            </div>
+            <div class="product-details">
+                <h2>Features</h2>
+                <ul>
+                    <li>Lightweight wireless over-ear design for all-day comfort.</li>
+                    <li>Noise-canceling microphone for crystal-clear audio calls.</li>
+                    <li>Multiple trendy colors: Graphite, Off-White, and Rose.</li>
+                    <li>Seamless connectivity with Bluetooth and wired options.</li>
+                    <li>Long-lasting battery for uninterrupted sessions.</li>
+                </ul>
+                <h2>Benefits</h2>
+                <ul>
+                    <li>Stay focused with professional-grade noise-canceling mic.</li>
+                    <li>Stylish look matches your vibe for any occasion.</li>
+                    <li>Perfect for remote work, gaming, or casual listening.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="cta">
+            <h2>Special Offer: Only RM 359.90!</h2>
+            <p>Order now and enjoy FREE SHIPPING!</p>
+            <button onclick="buyNow()">Buy Now</button>
+        </div>
+        <div class="info-section">
+            <h3>Why Choose Logitech Zone Vibe 100?</h3>
+            <p>The Logitech Zone Vibe 100 combines performance, style, and comfort. Its lightweight design ensures all-day wearability, while the premium noise-canceling microphone delivers top-notch sound quality. Available in trendy colors, it's perfect for anyone who values function and fashion.</p>
+        </div>
+    </div>
+    <footer>
+        <p>© 2024 Logitech. All Rights Reserved.</p>
+    </footer>
+    <script>
+        function buyNow() {
+            alert("Thank you for your interest! Redirecting to checkout...");
+            window.location.href = "https://shopee.com.my/product-page-url";
+        }
+    </script>
+</body>
+</html>
